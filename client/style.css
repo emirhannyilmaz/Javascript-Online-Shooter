@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #ecf0f1;
+}
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f7f9fa;
+    border-radius: 15px;
+    text-align: center;
+}
+.box h1 {
+    color: #2980b9;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 2px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box button {
+    border: 0;
+    background: #2ecc71;
+    display: block;
+    margin: 2px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box button:hover {
+    background: #27ae60;
+}
+.chat {
+    color: #7efff5;
+}
+.chat form input[type = "text"] {
+    border: 0;
+    background: #4b4b4b;
+    display: block;
+    width: 1280px;
+    height: 20px;
+    font-size: large;
+    outline: none;
+    color: #7efff5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.25s;
+}
